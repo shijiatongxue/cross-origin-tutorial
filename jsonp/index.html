@@ -1,0 +1,10 @@
+<body>
+  <h1>JSONP</h1>
+</body>
+</html>
+<script>
+	function foo(data) {
+		alert('收到数据' + data.name);
+	}
+</script>
+<script src="http://localhost:3000?callback=foo"></script>
